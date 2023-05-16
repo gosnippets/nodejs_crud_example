@@ -1,17 +1,1 @@
-{
-    "1": {
-        "username": "surya",
-        "email": "surya@gmail.com",
-        "password": "Test1234"
-    },
-    "2": {
-        "username": "dev",
-        "email": "dev@gmail.com",
-        "password": "Test1234"
-    },
-    "3": {
-        "username": "ram",
-        "email": "ram@gmail.com",
-        "password": "Test1234"
-    }
-}
+{"2":{"username":"dev","email":"dev@gmail.com","password":"Test1234"},"3":{"username":"ram","email":"ram@gmail.com","password":"Test1234"},"500185":{"username":"Hari","email":"hari@gmail.com","password":"Test1234"},"774778":{"username":"Vikas","email":"vikas@gmail.com","password":"Test1234"},"997143":{"username":"Rakesh","email":"abc@gmail.com","password":"Test1234"}}
