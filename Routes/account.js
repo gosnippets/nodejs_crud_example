@@ -62,7 +62,7 @@ accountRoutes.put('/account/:id', (req, res) => {
     existAccounts[accountId] = req.body;
 
     saveAccountData(existAccounts);
-    res.send(`accounts with id ${accountId} has been updated`)
+    res.send({ success: true, msg: `accounts with id ${accountId} has been updated` });
   }, true);
 });
 
@@ -75,7 +75,7 @@ accountRoutes.delete('/account/delete/:id', (req, res) => {
 
     delete existAccounts[userId];
     saveAccountData(existAccounts);
-    res.send(`accounts with id ${userId} has been deleted`)
+    res.send({ success: true, msg: `accounts with id ${userId} has been deleted` })
   }, true);
 })
 module.exports = accountRoutes
